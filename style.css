@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro-text{
+    top: 50px;
+}
+.profilepic{
+  border-radius: 5%;
+}
+  @media (max-width: 768px) {
+    .profilepic {
+      width: 250px;
+      height: auto; /* keep aspect ratio */
+    }
+  }
+
+.progress{
+  width: 60%;
+
+}
+.progress-bar{
+  font-weight: bold;
+}
+.proj{
+  margin-bottom: 30px;
+}
+
+@media (max-width: 390px) {
+    .container {
+      padding: 5px;
+    }
+  }
+  .fa-brands{
+    font-size: 23px;
+    margin: 8px;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: rgb(13 202 238)!important;
+  }
+
+  /* Optional: hover color */
+  .navbar-nav .nav-link:hover {
+    color: #52eeff;
+  }
+
+  #my-name,#profilepic,.ico{
+        animation: typing 2s ease-in-out .1s;
+  }
+
+  @keyframes typing{
+    0%{
+     
+      opacity: 0;
+    }
+     20%{
+     
+      opacity: 0.3;
+    }
+     40%{
+     
+      opacity: 0.6;
+    }
+     70%{
+      
+      opacity: 0.8;
+    }
+     100%{
+      
+      opacity: 1;
+    }
+
+    /* 50%{
+      width: 50%;
+    }
+    100%{
+      width: 100%;
+    } */
+    
+  }
